@@ -1,0 +1,67 @@
+/* General page styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f7fa;
+    margin: 40px ;
+    color: #2c3e50;
+}
+
+/*Main Heading*/
+h1 {
+    text-align:center;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+/* Description Text */
+
+p{
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto 30px auto;
+    line-height: 1.6;
+}
+
+/* Section Heading */
+
+h2{
+    color: #2e8b57;
+    margin-bottom: 15px;
+}
+
+/* Table Styling */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+}
+
+/* Table Headers */
+
+th{
+    background-color: #e3eaf2;
+    font-weight: bold;
+}
+
+/*Table Cells */
+
+th,
+td {
+    border: 1px solid #bfc6cf;
+    padding: 12px;
+    text-align: center;
+    font-size: 14px;
+}
+
+/*Table Column */
+
+td:first-child,
+th:first-child {
+    font-weight: bold;
+    background-color: #f0f3f7; }
+
+/* Hover Effect */
+tr:hover {
+    background-color: #f9fbfd;
+}
